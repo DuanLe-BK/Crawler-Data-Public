@@ -15,11 +15,11 @@ logging.basicConfig(filename='download_image_v2_with_error_log.log', level=loggi
 
 PATH = "image_error_1st/"
 
-SQL_HOST='172.20.2.110'
-SQL_USER='gpkt'
-SQL_PWD='Paytv@gpkt~!@#'
-SQL_DB='RecommendDB'
-STORE="IN_Metadata_Person_GetlistImage"
+SQL_HOST='HOST_SERVER'
+SQL_USER='username'
+SQL_PWD='passwork'
+SQL_DB='NAME_DB'
+STORE="STORE_PROCEDURE"
 
 sqlserver = pymssql.connect (
         server=SQL_HOST,
